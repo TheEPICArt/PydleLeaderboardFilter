@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Pydle Leaderboard Filter",
+  "version": "1.0",
+  "description": "Filter Pydle leaderboard solutions and recalculate your rank.",
+  "content_scripts": [
+    {
+      "matches": ["*://pydle.net/*", "*://www.pydle.net/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

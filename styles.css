@@ -1,0 +1,57 @@
+#pydle-filter-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border: 1px solid #45475a;
+  border-radius: 10px;
+  padding: 14px 16px;
+  width: 270px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 99999;
+}
+
+#pydle-filter-box h4 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #a6e3a1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pydle-toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.pydle-toggle-row input {
+  cursor: pointer;
+}
+
+#pydle-user-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #45475a;
+  background: #11111b;
+  color: #fff;
+  font-size: 12px;
+}
+
+#pydle-rank-output {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #313244;
+  font-weight: 600;
+  font-size: 14px;
+  color: #f9e2af;
+}
