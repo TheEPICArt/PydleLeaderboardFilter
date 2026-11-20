@@ -13,7 +13,7 @@ A Chrome extension for the daily python programming game ["Pydle"](https://githu
 
 1. **Download the repository from GitHub**
    - Click the green **Code** button at the top of the repository page and choose **Download ZIP**.
-   - Extract the ZIP archive into a permanent folder on your computer (for example, `~/Extensions/pydle-leaderboard-filter` or `C:\Extensions\pydle-leaderboard-filter`). Keep this folder in place because Chrome points directly to this directory and will break if you move or delete it later.
+   - Extract the ZIP archive into a permanent folder on your computer (for example, `~/Extensions/PydleLeaderboardFilter-main` or `C:\Extensions\PydleLeaderboardFilter-main`). Keep this folder in place because Chrome points directly to this directory and will break if you move or delete it later.
 
 3. **Open Chrome's Extensions page and enable Developer mode**
    - In Google Chrome, go to `chrome://extensions/` (or click the **three-dot menu** → **Extensions** → **Manage Extensions**).
